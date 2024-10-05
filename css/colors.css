@@ -7,6 +7,5 @@ body[data-theme="dark"] {
     --color-button-bg: gray;
     --color-button-text: white;
     --color-button-hover: lightgray;
-    --color-navbar-bg: white;
     transition: 1s;
 }
