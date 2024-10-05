@@ -1,0 +1,56 @@
+body {
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    position: sticky;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+}
+.links {
+    text-decoration: none;
+    color: var(--color-links);
+}
+.links:hover {
+    color: var(--color-text);
+    transition: .5s;
+}
+#right-nav {
+    display: flex;
+    gap: 10px;
+}
+/* The below selectors were found with a combination of w3schools, and stackoverflow */
+#right-nav:before,
+#right-nav a:before
+{
+    content: "#";
+}
+#right-nav:first-letter, #right-nav:before,
+#right-nav a:first-letter, #right-nav a:before
+{
+    color: var(--color-highlighted-text);
+}
+
+
+header {
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#intro-text {
+    font-size: 20px;
+}
+#intro-text > button {
+    padding: 10px 10px 10px 10px;
+    border: 1px solid var(--color-highlighted-text);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}
+#intro-text > h1 > span {
+    color: var(--color-highlighted-text);
+}

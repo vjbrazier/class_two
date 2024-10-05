@@ -1,0 +1,11 @@
+body[data-theme="dark"] {
+    --color-bg: black;
+    --color-text: white;
+    --color-links: lightgray;
+    --color-highlighted-text: purple;
+    --color-button-bg: gray;
+    --color-button-text: white;
+    --color-button-hover: lightgray;
+    --color-navbar-bg: white;
+    transition: 1s;
+}
