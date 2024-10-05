@@ -15,16 +15,16 @@
     <link rel="stylesheet" href="../css/homepage_styles.css">
 </head>
 <body data-theme="dark"> <!-- Added to make colors across pages universal -->
+    <!-- Split into two, so that I can space them apart -->
     <nav>
         <p>Vincent</p>
         <div id="right-nav"> 
-            <p> Homepage</p>
-            <a href="projects.html" class="links"> Projects</a>
-            <a href="https://github.com/vjbrazier/class_two" class="links"> Github</a>
+            <p><span>#</span> Homepage</p>
+            <a href="projects.html" class="links"><span>#</span> Projects</a>
+            <a href="https://github.com/vjbrazier/class_two" class="links"><span>#</span> Github</a>
         </div>
     </nav>
-
-    
+    <br> <br> <br>
 
     <header>
         <section id="intro-text">
@@ -32,20 +32,111 @@
             <br>
             <p>He crafts responsive websites where technologies meet creativity</p>
             <br>
-            <button>Contact me!!</button>
+            <a href="https://github.com/vjbrazier">
+                <button>Contact me!!</button>
+            </a>
         </section>
         <section id="picture-of-me">
             <img src="../images/picture_of_me.jpg" width=50% height=50%>
         </section>
         <br>
     </header>
-
+    <br>
     <article id="quote">
         <h1>"With great power comes a great electricity bill"<br>-Dr. Who</h1>
     </article>
+    <br> <br> <br> <br> <br> <!-- Makes it look fine on mobile-->
 
-    <article id="projects">
-        <h1>Projects</h1>
-    </article>
+    <!-- I don't know why but the hr only changes color when put it in here -->
+    <div class="new-section">
+        <a href="projects.html" class="links">
+            <h1><span>#</span> Projects<span><hr></span></h1> 
+        </a>
+    </div>
+    <section id="projects">
+        <article>
+            <img src="../images/snake.jpg">
+            <p>HTML, CSS, JS, Python</p>
+            <br>
+            <p>I recreated Snake, except mulitplayer!</p>
+            <br>
+            <button>Play it here!</button>
+        </article>
+        <article>
+            <img src="../images/discord.jpg">
+            <p>Python, SQL</p>
+            <br>
+            <p>A discord bot that processes and parses SQL information into your server!</p>
+            <br>
+            <button>Get it here!</button>
+        </article>
+        <article>
+            <img src="../images/cat.jpg">
+            <p>HTML, CSS, JS, Python</p>
+            <br>
+            <p>A cat chatbot that tells you the news!</p>
+            <br>
+            <button>Talk to it here!</button>
+        </article>
+    </section>
+    <br> <br> <br> <br> <br> <!-- Makes it look fine on mobile -->
+
+    <div class="new-section">
+        <a href="https://www.codecademy.com" class="links">
+            <h1><span>#</span> Skills<span><hr></span></h1> 
+        </a>
+    </div>
+    <section id="skills">
+        <article>
+            <h1>Programming Languages</h1>
+            <br>
+            <p>HTML, CSS, JS, Python, Java, SQL, Habachi Grill, Teriyaki sauce, idk</p>
+        </article>
+        <article>
+            <h1>Another skill category</h1>
+            <br>
+            <p>I am running out of ideas</p>
+        </article>
+        <article>
+            <h1>Latin fluency</h1>
+            <br>
+            <p>Observe: Lorem ipsum something something </p>
+        </article>
+        <article>
+            <h1>Clairevoyance</h1>
+            <br>
+            <p>I predict that you are currently reading this.</p>
+        </article>
+    </section>
+    <br> <br> <br> <br> <br> <!-- Makes it look fine on mobile -->
+
+    <div class="new-section">
+        <a href="https://about.me" class="links">
+            <h1><span>#</span> About me<span><hr></span></h1> 
+        </a>
+    </div>
+    <section id="about-me">
+        <p>My name is Vincent. I like dogs and cats. I am in your class. Hi.</p>
+        <br> <br> <br> <br> <br>
+    </section>
+
+    <hr width=99%>
+
+    <!-- Similar to the navbar, it uses two divs to split up the information -->
+    <footer>
+        <div id="left-footer">
+            <p>Vincent Brazier <span>vjbrazie@svsu.edu</span></p>
+            <p>Web designer and front end developer</p>
+        </div>
+        <div id="right-footer">
+            <h3>Media</h3>
+            <a href="https://discord.com">
+                <img src="../images/discord_small.jpg" width=25px height=25px>
+            </a>
+            <a href="https://instagram.com">
+                <img src="../images/instagram.jpg" width=25px height=25px>
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
