@@ -41,9 +41,6 @@ button:hover {
 }
 
 /* Styling for the navbar */
-nav > p {
-    margin-left: 10%;
-}
 .links {
     text-decoration: none;
     color: var(--color-links);
@@ -55,7 +52,6 @@ nav > p {
 #right-nav {
     display: flex;
     gap: 10px;
-    margin-right: 10%;
 }
 
 /* Styling for the header (mostly the introduction) */
@@ -134,4 +130,23 @@ footer {
 }
 #right-footer a {
     text-decoration: none;
+}
+
+@media (max-width: 474px) {
+    nav > p {
+        margin-left: 0%;
+    }
+
+    #right-nav {
+        margin-right: 0%;
+    }
+}
+@media (min-width: 475px) {
+    nav > p {
+        margin-left: 10%;
+    }
+
+    #right-nav {
+        margin-right: 10%;
+    }
 }
